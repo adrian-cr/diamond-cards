@@ -1,0 +1,48 @@
+#navbar {
+  height: 0vh;
+}
+#nb-drawer {
+  background: linear-gradient(to bottom, #6326ff, #99f5fa);
+  overflow: hidden;
+}
+#nb-header {
+  align-items: center;
+  background: linear-gradient(to right, #6326ff, #99f5fa);
+  height: 10vh;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100vw;
+  > * {
+    width: 30%;
+  }
+}
+
+/* Drawer Menu */
+#drawer-menu:hover {
+  background: none;
+}
+
+/* Logo */
+#nb-logo-container {
+  min-width: 200px;
+  max-width: 300px;
+}
+#nb-logo {
+  width: 100%;
+}
+#nb-drawer-logo {
+  width: 100%;
+}
+
+
+.disabled {
+  pointer-events: none;
+}
+
+/* Profile Menu */
+#nb-profile-menu {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 350px;
+}

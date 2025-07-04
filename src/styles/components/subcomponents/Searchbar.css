@@ -1,0 +1,42 @@
+/* Searchbar Container */
+#search-bar {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  width: calc(100% + 30px);
+  &.center {
+    margin-left: 30px;
+  }
+}
+
+/* Text Field */
+#sb-search-field {
+  background-color: white;
+  font-size: calc(1vw + 1vh);
+  height:3vh;
+  overflow: hidden;
+  padding: 12px;
+  &:hover {
+    font-size: calc(1vw + 1.5vh);
+    transition: 300ms;
+  }
+
+}
+
+
+
+/* Button */
+#hsb-search-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  display: flex;
+  height: 100%;
+  position: relative;
+  right: 40px;
+  &:hover {
+    cursor: pointer;
+    transition: 300ms;
+  }
+}

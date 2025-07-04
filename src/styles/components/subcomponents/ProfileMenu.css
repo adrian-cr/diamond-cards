@@ -1,0 +1,26 @@
+#menu-button {
+  width: 100px;
+  &:hover {
+    background: none;
+  }
+}
+
+#menu-image {
+  max-width: 70%;
+  &:hover {
+    max-width: 80%;
+    transition: 100ms;
+  }
+}
+
+#menu-items ul {
+  background-color: #6184ff;
+  li {
+    color: white;
+    &:hover {
+      background: none;
+      text-shadow: 0 0 2px white;
+      transition: 200ms;
+    }
+  }
+}
